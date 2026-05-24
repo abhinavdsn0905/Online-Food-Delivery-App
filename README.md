@@ -1,22 +1,22 @@
-# 🍔 FoodieHub — Online Food Delivery App
+#  FoodieHub — Online Food Delivery App
 
 A full-stack online food ordering platform built with **React (Vite)** on the frontend and **FastAPI (Python)** on the backend. It features a beautiful UI, secure authentication, cart management, order placement, and a full-featured Admin Dashboard.
 
 ---
 
-## 🚀 Live Features
+##  Live Features
 
-- 🏠 **Home Page** — Browse restaurants with search and category filters
-- 🍽️ **Restaurant Menu** — View food items with add-to-cart functionality (with live quantity controls)
-- 🛒 **Cart** — Manage items, quantities and view bill breakdown in ₹
-- 💳 **Checkout** — Pay via Card, UPI, or Cash on Delivery
-- 📦 **Orders** — Track all your past orders and their status
-- 🔐 **Auth** — Register & Login with JWT-based authentication
-- 🛠️ **Admin Dashboard** — Full management for Orders, Restaurants, Menu Items, and Customers
+-  **Home Page** — Browse restaurants with search and category filters
+-  **Restaurant Menu** — View food items with add-to-cart functionality (with live quantity controls)
+-  **Cart** — Manage items, quantities and view bill breakdown in ₹
+-  **Checkout** — Pay via Card, UPI, or Cash on Delivery
+-  **Orders** — Track all your past orders and their status
+-  **Auth** — Register & Login with JWT-based authentication
+-  **Admin Dashboard** — Full management for Orders, Restaurants, Menu Items, and Customers
 
 ---
 
-## 🖼️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                          |
 |------------|-------------------------------------|
@@ -28,7 +28,7 @@ A full-stack online food ordering platform built with **React (Vite)** on the fr
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Online Food Order/
@@ -122,7 +122,7 @@ The frontend will run at: **http://localhost:5173**
 
 ---
 
-## 🔑 Demo Credentials
+##  Demo Credentials
 
 | Role  | Email                    | Password     |
 |-------|--------------------------|--------------|
@@ -137,12 +137,12 @@ The app comes pre-loaded with popular global chains and authentic Indian restaur
 
 | Restaurant       | Cuisine                       |
 |------------------|-------------------------------|
-| 🍗 KFC            | Fast Food, American           |
-| 🍕 Domino's Pizza | Pizzas, Italian               |
-| 🍔 McDonald's     | Burgers, Fast Food            |
-| 🍚 Paradise Biryani | Biryani, North Indian       |
-| 🍬 Haldiram's     | North Indian, Snacks, Sweets  |
-| 🥥 Saravana Bhavan | South Indian, Vegetarian     |
+|  KFC            | Fast Food, American           |
+|  Domino's Pizza | Pizzas, Italian               |
+|  McDonald's     | Burgers, Fast Food            |
+|  Paradise Biryani | Biryani, North Indian       |
+|  Haldiram's     | North Indian, Snacks, Sweets  |
+|  Saravana Bhavan | South Indian, Vegetarian     |
 
 ---
 
@@ -150,24 +150,14 @@ The app comes pre-loaded with popular global chains and authentic Indian restaur
 
 Accessible at `/admin` after logging in with admin credentials.
 
-- 📊 **Dashboard** — Revenue, order stats & recent transactions
-- 📋 **Orders** — View all orders, mark as Delivered or Cancelled
-- 🍴 **Restaurants** — Add, edit restaurants and manage their menu items (with image upload support)
-- 👥 **Customers** — View and remove user accounts
+-  **Dashboard** — Revenue, order stats & recent transactions
+-  **Orders** — View all orders, mark as Delivered or Cancelled
+-  **Restaurants** — Add, edit restaurants and manage their menu items (with image upload support)
+-  **Customers** — View and remove user accounts
 
 ---
 
-## 📸 Screenshots
 
-> Coming soon...
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 ## 🙋‍♂️ Author
 
