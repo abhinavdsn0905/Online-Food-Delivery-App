@@ -134,4 +134,5 @@ def add_food_item(item: schemas.FoodItemBase, db: Session = Depends(get_db), adm
         db.refresh(new_item)
         return {"success": True, "message": "Food item added successfully", "data": new_item}
     except Exception as e:
+        db.rollback()
         raise HTTPException(status_code=500, detail=str(e))
