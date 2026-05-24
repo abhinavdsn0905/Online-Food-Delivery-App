@@ -65,4 +65,5 @@ def remove_from_cart(item_id: int, db: Session = Depends(get_db), current_user: 
     except HTTPException as e:
         raise e
     except Exception as e:
+
         raise HTTPException(status_code=500, detail=str(e))
