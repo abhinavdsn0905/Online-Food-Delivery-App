@@ -43,4 +43,5 @@ def login(user_credentials: schemas.Login, db: Session = Depends(get_db)):
     except HTTPException as e:
         raise e
     except Exception as e:
+        
         raise HTTPException(status_code=500, detail=str(e))
