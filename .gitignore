@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.sqlite3
+foodiehub.db
+.pytest_cache/
